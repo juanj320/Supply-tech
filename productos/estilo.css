@@ -1,0 +1,322 @@
+*{
+   margin:0;
+   padding:0;
+   font-family: 'Fira Sans', sans-serif;
+}
+header{
+    width:100%;
+    height: 80px;
+    background-color: #1CA0F5;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+#logo{
+    float: left;
+}
+#imglogo{
+    width: 60px;
+    height: 60px;
+    padding-top: 10px;
+}
+
+#menu li{
+    font-size:25px;
+    list-style-type: none;
+    float: left;
+    padding-left: 6%;
+    margin-top: 22px;
+    
+}
+li a{
+    text-decoration:none;
+    color: black;
+}
+#menu li a:hover{
+    color: white;
+}
+#icon-search{
+    font-size: 20px;
+    float: left;
+    margin-top: 28px;
+    margin-left: 3%;
+}
+#inputSearch{
+    float: left;
+    margin-top:23px;
+    height: 25px;
+    width: 15%;
+    border-radius:10px;
+    margin-left: 20px;
+    
+}
+#carrito{
+    width: 25px;
+    float: left;
+    margin-left: 25px;
+}
+#cart{
+   font-size: 30px;
+   margin-top: 18px;
+   float:right;
+   color: black;
+}
+#icon-user{
+    font-size: 40px;
+    margin-right:2%;
+    margin-top: 16px;
+    float:right;
+    color: black;
+   
+  
+}
+#usuario{
+    font-size:20px; 
+    float: right;
+    margin-right: 10px;
+    margin-top:22px;
+    text-decoration: none;
+    color: black;
+}
+#usuario:hover{
+   color: white;
+}
+main{
+    margin-top: 50px;
+    width:95%;
+    margin-left: 33px;
+    border:2px solid gray;
+    
+}
+
+main img{
+    width: 300px;
+    height: 300px;
+    padding-left: 90px;
+
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+
+main img:hover{
+    -webkit-transform: scale(1,3); 
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+
+    border-radius: 5px;
+}
+#submenu{
+    width: 100%;
+    margin-top: 83px;
+    display: flex;
+    padding-left: 9%;
+    padding-bottom: 1%;
+    border-bottom: 2px solid gray;
+
+}
+#submenu a{
+    text-decoration: none;
+    color: black;
+}
+#submenu i{
+    font-size: 80px;
+    
+}
+#phone{
+    margin-left: 20%;
+    background-color: gray;
+    border-radius: 5px;
+}
+#desktop{
+    margin-left: 5%;
+}
+#laptop{
+    margin-left: 5%;
+}
+#accessories{
+    margin-left: 5%;
+}
+
+#nm1{
+    font-size: 24px;
+    float: left;
+    margin-left: 14%;
+}
+#nm2{
+    font-size: 24px;
+    float: left;
+    margin-left: 22%;
+}
+#nm3{
+    font-size: 24px;
+    float: right;
+    margin-right: 15%;
+    
+}
+
+
+
+
+#pr1{
+    font-size: 24px;
+    float: left;
+    margin-left: 13%;
+}
+#pr2{
+    font-size: 24px;
+    float: left;
+    margin-left: 20%;
+}
+#pr3{
+    font-size: 24px;
+    float: right;
+    margin-right: 14%;
+    
+}
+
+
+#nm4{
+    font-size: 24px;
+    float: left;
+    margin-left: 12%;
+}
+#nm5{
+    font-size: 24px;
+    float: left;
+    margin-left: 17%;
+}
+#nm6{
+    font-size: 24px;
+    float: left;
+    margin-left: 14%;
+}
+
+
+#pr4{
+    font-size: 24px;
+    float: left;
+    margin-left: 13%;
+}
+#pr5{
+    font-size: 24px;
+    float: left;
+    margin-left: 21%;
+}
+#pr6{
+    font-size: 24px;
+    float: right;
+    margin-right: 190px;
+    
+}
+#nm7{
+    font-size: 24px;
+    float: left;
+    margin-left: 13%;
+}
+#nm8{
+    font-size: 24px;
+    float: left;
+    margin-left: 17%;
+}
+#nm9{
+    font-size: 24px;
+    float: left;
+    margin-left: 17%;
+}
+
+
+#pr7{
+    font-size: 24px;
+    float: left;
+    margin-left: 13%;
+}
+#pr8{
+    font-size: 24px;
+    float: left;
+    margin-left: 20%;
+}
+#pr9{
+    font-size: 24px;
+    float: right;
+    margin-right: 189px;
+    
+}
+
+footer{
+    width: 100%;
+}
+
+#container{
+    width: 100%;
+    height: 300px;
+    margin-top: 5%;
+    display: flex;
+}
+#container h3{
+    font-size: 25px;
+}
+footer img{
+  width: 50px;
+  
+}
+#alia{
+    width: 25%;
+    height: 300px;
+    margin-left: 5%;
+
+}
+#apple{
+    font-size:100px;
+    float: left;
+    margin-left: 10%;
+}
+#samsumg{
+width: 110px;
+float: left;
+height:110px ;
+margin-left: 22%;
+margin-bottom:20px;
+}
+#amd{
+    width: 80px;
+   margin-left: 25px; 
+}
+#intel{
+    width: 100px;
+    margin-left:22%; 
+}
+#inform{
+    width: 25%;
+    height: 300px;
+    margin-left: 10%;
+}
+
+#inform li{
+    font-size: 25px;;
+   padding-left: 5%;
+   margin-top: 0%;
+   list-style:none;
+   padding-top: 5%; 
+}
+
+#redes{
+    width: 25%;
+    height: 300px;
+    margin-left: 5%;
+
+}
+#redes img{
+    width: 70px;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+    
+    
+
+
+
